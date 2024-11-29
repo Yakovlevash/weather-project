@@ -1,0 +1,47 @@
+body{
+ font-family: 'Inter', sans-serif;
+ background-color: rgba(241, 241, 241, 1);
+}
+
+.container{
+    margin-top: 79px;
+}
+.container div{
+    display: flex;
+    justify-content: space-between;
+    width: 617px;
+    margin-left: 411px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
+#get-weather-button{
+    margin-left: 411px;
+    font-size: 40px;
+    background-color: rgba(53, 95, 202, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 21px 145px;
+    border: none;
+    width: 617px;
+    cursor: pointer;
+}
+input{
+    width: 405px;
+    box-sizing: border-box;
+    font-size: 40px;
+}
+#result-container{
+    margin: 50px 482px 0px 456px;
+}
+.weather-widget{
+    background-color: rgba(196, 221, 255, 1);
+    border-radius: 10px;
+    padding: 20px 20px;
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+.widget-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
